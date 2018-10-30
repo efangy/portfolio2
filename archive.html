@@ -1,0 +1,323 @@
+<style>
+body {
+	background: #eeeeee;
+}
+.sf {
+	display: none;
+}
+.smallfont {
+	font: 6pt arial;
+	color: #BCC0F3;
+	font-weight: bold;
+	letter-spacing: 0.5;
+	text-transform: uppercase;
+}
+table {
+	background: none;
+}
+td {
+	visibility: hidden;
+}
+b {
+	font-weight: bold;
+	color: #00A8C6;
+}
+i {
+	font-style: italic;
+	font-family: georgia;
+	color: #E1E3B7;
+	background: #382F32;
+}
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #40C0CB;
+}
+#layoutbyelevina {
+}
+#textbox {
+	width: 700px;
+	height: 1600px;
+	background: transparent;
+	top: -80px;
+	left: 0px;
+	overflow: hidden;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border: 2px white solid;
+}
+h1 {
+	font: 25pt "arial";
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	color: #F9F2E7;
+	text-align: center;
+	border-bottom: 3px solid #ffffff;
+	background: #C2E18F;
+	margin: 2;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+h2 {
+	font: 25pt "arial";
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	color: #F9F2E7;
+	text-align: center;
+	border-bottom: 3px solid #E1E3B7;
+	background: #40C0CB;
+	margin: 2;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+h3 {
+	font: 25pt "arial";
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	color: #00A8C6;
+	text-align: center;
+	border-bottom: 3px solid #8FBE00;
+	background: #F9F2E7;
+	margin: 2;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+h4 {
+	font: 25pt "arial";
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	color: #F9F2E7;
+	text-align: center;
+	border-bottom: 3px solid #FFEAF2;
+	background: #AEE239;
+	margin: 2;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+h5 {
+	font: 14pt "arial";
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #ffffff;
+	text-align: right;
+	padding-right: 20px;
+	margin-left: 250px;
+	background: #383838;
+	border: 2px #ffffff solid;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+h6 {
+	font: 18pt "arial";
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #ffffff;
+	text-align: right;
+	padding-right: 10px;
+	background: transparent;
+	margin: 2;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+a.nav:link, a.nav:active, a.nav:visited {
+	display: block;
+	font-size: 10pt;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 18px;
+	width: 150px;
+	float: left;
+	text-align: center;
+	color: #b6b6b6;
+	background-color: #ffffff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	border: 2px #eeeeee solid;
+}
+a.nav:hover {
+	background-color: #383838;
+	color: #ffffff;
+}
+#title {
+	text-align: center;
+	font: 38pt arial;
+	width: 100%;
+	height: 100px;
+	color: #1A1616;
+	font-weight: bold;
+	letter-spacing: 0px;
+	background: #ffffff;
+	top: -10px;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	border-top: 20px #383838 solid;
+}
+#textbox2 {
+	width: 675px;
+	height: 200px;
+	background: #D83850;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	color: #ffffff;
+	margin: 0;
+	font: 12pt arial;
+	line-height: 13pt;
+	text-align: justify;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border: 2px white solid;
+}
+#textbox4 {
+	width: 700px;
+	height: 250px;
+	background: #ffffff;
+	top: -10px;
+	left: -10px;
+	overflow: hidden;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border-bottom: 5px #24BCA5 solid;
+}
+#textbox5 {
+	width: 200px;
+	height: 200px;
+	background: #383838;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border: 3px #eeeeee solid;
+}
+#textbox6 {
+	width: 430px;
+	height: 200px;
+	background: #eeeeee;
+	top: -240px;
+	left: 240px;
+	overflow: auto;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border: 3px #eeeeee solid;
+}
+#textbox7 {
+	width: 670px;
+	height: 1060px;
+	background: transparent;
+	top: -20px;
+	left: 0px;
+	overflow: auto;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	border: 1px #ffffff solid;
+}
+#navbox {
+	width: 700;
+	height: 50px;
+	left: 15px;
+	background: transparent;
+	top: -65px;
+	overflow: hidden;
+	color: #aaaaaa;
+	margin: 0;
+	font: 8pt verdana;
+	line-height: 11pt;
+	text-align: justify;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-top: -0px;
+}
+</style><center>
+<div id="title" style="position: relative;">
+hi brian</div>
+
+<div id="navbox" style="position: relative;">
+<a class="nav" href="/README.md">link one</a>
+<a class="nav" href="/">link two</a>
+<a class="nav" href="/">link three</a>
+<a class="nav" href="/">link four</a>
+</div>
+
+<div id="textbox" style="position: relative;">
+
+<div id="textbox2" style="position: relative;"><h5>i've called at least a thousand times</h5>
+Hello, it's me
+I was wondering if after all these years
+You'd like to meet, to go over everything
+They say that time's supposed to heal ya
+But I ain't done much healing
+Hello, can you hear m
+    e?
+I'm in California dreaming about who we used to be
+When we were younger and free
+I've forgotten how it felt before the world fell at our feet
+There's such a difference between us
+And a million miles
+</div>
+<div id="textbox4" style="position: relative;">
+<div id="textbox5" style="position: relative;"><h6>to tell you that i'm sorry for everything that i've done</h6></div>
+<div id="textbox6" style="position: relative;"><h1>but when i call </h1>Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be </div>
+
+</div>
+<div id="textbox7" style="position: relative;">
+<h2>you never seem to be home anymore</h2>
+Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles 
+Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles
+Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles Hello, it's me I was wondering if after all these years You'd like to meet, to go over everything They say that time's supposed to heal ya But I ain't done much healing Hello, can you hear me? I'm in California dreaming about who we used to be When we were younger and free I've forgotten how it felt before the world fell at our feet There's such a difference between us And a million miles
+</div>
+</div>
+</center>
