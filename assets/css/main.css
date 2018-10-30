@@ -1770,7 +1770,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #2f2f2f;
+			color: #aaaaaa;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1844,6 +1844,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				opacity: 1.0;
+                transition: opacity .55s ease-in-out;
 			}
 
 				#nav a:hover span {
