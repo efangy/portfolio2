@@ -1565,9 +1565,20 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
-            height: 100%;
+            height: 150px;
             border: 1px #eeeeee solid;
+            overflow: hidden;
+            opacity: 0.5;
+            
 		}
+        .image.fit:hover {
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            transition: height 0.2s ease-in-out;
+    
+        }
 
 		.image.featured {
 			display: block;
