@@ -1,0 +1,797 @@
+<style>
+body {
+	background: #ffffff;
+}
+.sf {
+	display: none;
+}
+#layoutbyelevinaofcolorblock {
+}
+.smallfont {
+	font: 6pt arial;
+	color: #BCC0F3;
+	font-weight: bold;
+	letter-spacing: 0.5;
+	text-transform: uppercase;
+}
+table {
+	background: none;
+}
+td {
+	visibility: hidden;
+}
+#stripe {
+	width: 900px;
+	height: 200px;
+	background: transparent;
+	top: 0px;
+	left: 100px;
+	color: #979999;
+	font: 9pt tahoma;
+	border-bottom: 1px #dcdbdb solid;
+}
+#ministripe {
+	width: 100%;
+	height: 20px;
+	background: #556270;
+	bottom: 0px;
+	left: 0px;
+	color: #979999;
+	font: 9pt tahoma;
+	border-top: 2px #4ECDC4 dashed;
+}
+a:link, a:visited {
+	font-weight: bold;
+	color: #D02253;
+	text-decoration: none;
+}
+b {
+	font-weight: bold;
+	color: #F3F315;
+}
+strong {
+	font-weight: bold;
+	color: #B9E9CF;
+}
+i {
+	font-family: georgia;
+	font-style: italic;
+	color: #556270;
+}
+
+
+#title {
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	height: 120px;
+	color: #ffffff;
+	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-weight: 80;
+	font-size: 105pt;
+	background: transparent;
+	border-bottom: 0px #ffffff solid;
+	text-align: right;
+	margin-bottom: -40px;
+
+}
+
+
+#title2 {
+	top: 50px;
+	right: 0px;
+	width: 100%;
+	height: 60px;
+	color: #2f2f2f;
+	font-family: helvetica;
+	font-weight: 80;
+	font-size: 55pt;
+	background: transparent;
+	border-bottom: 1px #eeeeee solid;
+	text-align: right;
+	margin-bottom: -40px;
+	margin-top: -10px;
+	padding-top:0px;
+	letter-spacing: 10px;
+
+}
+
+#box {
+	width: 850px;
+	height: 150px;
+	background: #2f2f2f;
+	overflow: hidden;
+	top: 50px;
+	left: 0px;
+	color: #2f2f2f;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 5px #ffffff solid;
+	
+}
+
+#content {
+	width: 850px;
+	height: 250px;
+	background: #ffffff;
+	overflow: hidden;
+	top: 360px;
+	left: 0px;
+	color: #404040;
+	font: 9pt tahoma;
+	line-height: 12pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+	
+}
+
+#content2 {
+	width: 850px;
+	height: 450px;
+	background: #2f2f2f;
+	overflow: hidden;
+	top: 500px;
+	left: 0px;
+	color: #eeeeee;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+	
+
+}
+#content3 {
+	width: 850px;
+	height: 600px;
+	background: #ffffff;
+	overflow: hidden;
+	top: 650px;
+	left: 0px;
+	color: #aaaaaa;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+
+	
+}
+
+#content4 {
+	width: 850px;
+	height: 600px;
+	background: #ffffff;
+	overflow: hidden;
+	top: 750px;
+	left: 0px;
+	color: #aaaaaa;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+
+	
+}
+
+#content5 {
+	width: 850px;
+	height: 550px;
+	background: #ffffff;
+	overflow: hidden;
+	top: 1050px;
+	left: 0px;
+	color: #aaaaaa;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+
+	
+}
+
+#content6 {
+	width: 850px;
+	height: 20px;
+	background: transparent;
+	overflow: hidden;
+	top: 1050px;
+	left: 0px;
+	color: #aaaaaa;
+	font: 9pt helvetica;
+	line-height: 11pt;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px #eeeeee solid;
+
+	
+}
+#navbox {
+	width: 100%;
+	height: 330px;
+	background: #eeeeee;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	color: #ececec;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	border-bottom: 1px #D3D3D3 dashed;
+}
+
+#navbox2 {
+	width: 100%;
+	height: 600px;
+	background: #F3F315;
+	overflow: hidden;
+	top: 700px;
+	left: 0px;
+	color: #ececec;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	border-top: 5px #eeeeee solid;
+	border-bottom: 5px #eeeeee solid;
+}
+
+#navbox3 {
+	width: 100%;
+	height: 900px;
+	background: #eeeeee;
+	overflow: hidden;
+	top: 2800px;
+	left: 0px;
+	color: #ececec;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	border-top: 5px #ffffff solid;
+	border-bottom: 10px #2f2f2f solid;
+}
+
+#layouts {
+	width: 150px;
+	height: 500px;
+	background: #2f2f2f;
+	overflow: hidden;
+	padding: 10px;
+	top: 0px;
+	left: 5px;
+	color: #ececec;
+	font: 72pt helvetica;
+	line-height: 55pt;
+	text-align: center;
+	border-top: 5px #ffffff solid;
+	border-bottom: 10px #2f2f2f solid;
+	text-transform: uppercase;
+	float: left;
+}
+
+#layoutcontent {
+	width: 640px;
+	height: 510px;
+	background: #eeeeee;
+	overflow: hidden;
+	padding: 10px;
+	top: 0px;
+	left: 15px;
+	color: #aaaaaa;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: center;
+	border-top: 5px #ffffff solid;
+	
+	
+}
+
+#buttons {
+	width: 850px;
+	height: 60px;
+	background: transparent;
+	overflow: hidden;
+	top: 40px;
+	left: 0px;
+	color: #2f2f2f;
+	font: 9pt tahoma;
+	line-height: 11pt;
+	text-align: justify;
+	border: 0px #ffffff solid;
+	
+}
+a.nav:link, a.nav:active, a.nav:visited {
+	display: block;
+	font-size: 12pt;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	width: 18%;
+	float: left;
+	text-align: center;
+	color: #000000;
+	font-weight: 10;
+	background-color: #F3F315;
+	text-decoration: none;
+	margin-bottom: 2px;
+	margin-right: 3px;
+	border: 2px white solid;
+	font-style: italic;
+	
+}
+a.nav:hover {
+	background-color: #FFFC7F;
+	
+}
+
+a.nave:link, a.nave:active, a.nave:visited {
+	display: block;
+	font-size: 12pt;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #000000;
+	font-weight: 10;
+	background-color: #eeeeee;
+	text-decoration: none;
+	margin-bottom: 2px;
+	margin-right: 3px;
+	border: 2px white solid;
+	font-style: italic;
+	
+}
+a.nave:hover {
+	background-color: #E8E8E8;
+	
+}
+
+
+
+h1 {
+	font: 20pt helvetica;
+	letter-spacing: -2px;
+	color: #eeeeee;
+	background: #2f2f2f;
+	
+	padding-bottom: 3px;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	border: 1px #eeeeee solid;
+	font-weight: 10;
+}
+
+h2 {
+	font: 50pt helvetica;
+	letter-spacing: -8px;
+	color: #2f2f2f;
+	background: #eeeeee;
+	
+	padding-bottom: 3px;
+	text-align: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 3px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: auto;
+	height: 90px;
+	border: 1px #aaaaaa solid;
+	font-weight: 10;
+	float: left;
+	margin-right: 20px;
+}
+
+h3 {
+	font: 28pt helvetica;
+	letter-spacing: -5px;
+	color: #aaaaaa;
+	background: transparent;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 3px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	border: 1px #eeeeee solid;
+	font-weight: 10;
+}
+
+#image {
+	border: 2px #eeeeee solid;
+	width: 30%;
+	height: 170px;
+}
+
+#image2 {
+	border: 2px #eeeeee solid;
+	width: 30%;
+	height: 230px;
+}
+
+
+#arrow {
+	bottom: 50px;
+	left: 10px;
+	width: 200px;
+	height: 100px;
+	color: #2f2f2f;
+	font-family: helvetica;
+	font-size: 150pt;
+	background: transparent;
+	text-align: left;
+}
+
+
+.buttons {
+	padding-right: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+textarea.buttons2 {
+	color: #eeeeee;
+	font-size: 17pt;
+	font-family: verdana;
+	background: #000000;
+	border: 1px dashed #aaaaaa;
+	height: 25px;
+	width: 87px;
+	overflow: hidden;
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+textarea.buttons2:hover {
+	background: #2f2f2f;
+}
+
+
+textarea.banners {
+	color: #eeeeee;
+	font-size: 17pt;
+	font-family: helvetica;
+	background: transparent;
+	height: 60%;
+	width: 98%;
+	overflow: hidden;
+	margin-top: -10px;
+	margin-left: 0px;
+	border: 1px #ffffff solid;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+textarea.banners:hover {
+	letter-spacing: 2px;
+	font-style: normal;
+}
+
+textarea.fonts {
+	color: #eeeeee;
+	font-size: 17pt;
+	font-family: helvetica;
+	background: transparent;
+	height: 30px;
+	width: 49%;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 1px #ffffff solid;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+textarea.fonts:hover {
+	color: #000000;
+}
+
+textarea.layout {
+	color: #eeeeee;
+	font-size: 17pt;
+	font-family: helvetica;
+	background: #2f2f2f;
+	height: 30px;
+	width: 99%;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 1px #ffffff solid;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+textarea.layout:hover {
+	color: #000000;
+}
+
+
+#banners {
+	width: 100%;
+	height: 200px;
+	left: 10px;
+
+}
+
+#font {
+	width: 99%;
+	height: 200px;
+}
+
+#lay {
+	width: 99%;
+	height: 150px;
+}
+
+#past {
+	width: 50px;
+	height: 50px;
+}
+.ban {
+	width: 48%;
+	height: auto;
+	margin: 1%;
+	float: left;
+	overflow: hidden;
+}
+
+.ban span {
+	background: #000000;
+	opacity: 0.5;
+	color: #fff;
+	padding: 10%;
+	height: 100%;
+	width: 80%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+.ban:hover span {
+	display: block;
+}
+
+
+</style>
+<a name="#home" id="home"></a>
+<div id="navbox" style="position:absolute">
+	<center>
+		<div id="buttons" style="position:relative">
+	<a class="nav" href="#button">buttons</a>
+	<a class="nav" href="#banners">banners</a>
+	<a class="nav" href="#fonts">fonts</a>
+	<a class="nav" href="#layout">layouts</a>
+	<a class="nav" href="/">leave</a>
+</div>
+
+
+
+
+	
+
+<div id="box" style="position:relative">
+	
+<div id="title" style="position: relative;">
+► repu<b>blic.</b></div>
+	</div>
+
+</div>
+
+<center>
+<div id="content" style="position:relative">
+<h1>welcome to the graphics page!</h1>
+Gummi bears cake jelly beans. Liquorice jelly-o toffee jelly-o. Sweet roll marshmallow powder lemon drops. Croissant candy sugar plum donut sugar plum cake. Cookie apple pie fruitcake cupcake. Tart chocolate lemon drops cotton candy. Croissant muffin cookie. Apple pie fruitcake dessert pie macaroon pudding. Apple pie chocolate bar pie. Tootsie roll caramels tootsie roll tootsie roll sugar plum sugar plum chocolate. Bear claw tart cupcake toffee sesame snaps. Soufflé apple pie toffee dragée candy halvah chocolate bar cupcake chocolate. <br> <br>
+Gummi bears cake jelly beans. Liquorice jelly-o toffee jelly-o. Sweet roll marshmallow powder lemon drops. Croissant candy sugar plum donut sugar plum cake. ookie apple pie fruitcake cupcake. Tart chocolate lemon drops cotton candy. Croissant muffin cookie. Apple pie fruitcake dessert pie macaroon pudding. <br> <br>
+
+
+
+
+<a class="nave" href="/">contact me</a>
+
+	</div>
+</center>
+<a name="#button" id="button"></a>
+<div id="navbox2" style="position:absolute"></div>
+
+<center>
+	<div id="content2" style="position:relative">
+
+		<h2>► buttons</h2>
+		Fruitcake jujubes pudding donut liquorice liquorice gummies lollipop. Chupa chups powder jelly beans gummies halvah bear claw chocolate donut danish. Sweet jelly beans pastry bear claw lemon drops cookie cake jelly beans marzipan. Caramels sweet toffee caramels halvah cupcake. Ice cream tiramisu sugar plum biscuit cake biscuit. Candy canes bonbon pie sweet toffee. Gingerbread jelly beans dessert chocolate cake. Chocolate bar cookie chocolate bar chocolate cake. Halvah fruitcake wafer cake marzipan. Soufflé cookie candy sugar plum chocolate. Caramels tootsie roll caramels jelly-o toffee candy canes toffee. Tart candy chocolate sweet roll jujubes.
+<br> <br>
+Cookie cupcake carrot cake jelly beans. Cotton candy biscuit bonbon tootsie roll pastry. Dessert fruitcake tootsie roll tootsie roll lemon drops. Bear claw halvah cake croissant tart. Gingerbread lemon drops jujubes halvah. Tiramisu muffin pie fruitcake danish fruitcake candy canes dessert. Apple pie oat cake gummi bears liquorice brownie bear claw jelly. Dessert cake candy canes tart cotton candy jelly-o liquorice. Cupcake jelly cotton candy muffin halvah pie. Candy tart sesame snaps carrot cake sweet roll liquorice. Ice cream oat cake toffee ice cream bear claw. Sesame snaps halvah gummi bears. Chocolate gummies gummi bears toffee. Apple pie cake cheesecake oat cake tiramisu tart.<br> <br>
+Fruitcake jujubes pudding donut liquorice liquorice gummies lollipop. Chupa chups powder jelly beans gummies halvah bear claw chocolate donut danish. Sweet jelly beans pastry bear claw lemon drops cookie cake jelly beans marzipan. Caramels sweet toffee caramels halvah cupcake. Ice cream tiramisu sugar plum biscuit cake biscuit. Candy canes bonbon pie sweet toffee. Gingerbread jelly beans dessert chocolate cake. Chocolate bar cookie chocolate bar chocolate cake. Halvah fruitcake wafer cake marzipan. Soufflé cookie candy sugar plum chocolate. Caramels tootsie roll caramels jelly-o toffee candy canes toffee. Tart candy chocolate sweet roll jujubes.
+<br> <br>
+Cookie cupcake carrot cake jelly beans. Cotton candy biscuit bonbon tootsie roll pastry. Dessert fruitcake tootsie roll tootsie roll lemon drops. Bear claw halvah cake croissant tart. Gingerbread lemon drops jujubes halvah. Tiramisu muffin pie fruitcake danish fruitcake candy canes dessert. Apple pie oat cake gummi bears liquorice brownie bear claw jelly. Dessert cake candy canes tart cotton candy jelly-o liquorice. Cupcake jelly cotton candy muffin halvah pie. Candy tart sesame snaps carrot cake sweet roll liquorice. Ice cream oat cake toffee ice cream bear claw. Sesame snaps halvah gummi bears. Chocolate gummies gummi bears toffee. Apple pie cake cheesecake oat cake tiramisu tart.
+
+
+
+
+
+
+
+
+
+	</div>
+
+<a name="#banners" id="banners"></a>
+<div id="content3" style="position:relative">
+<div id="title2" style="position: relative;">
+<strong>►</strong> banners.</div>
+
+<br> <br> <br> <br> <br> <br> <br>
+
+
+<div class="ban" style="position: relative;">
+
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="banners"><span style="position: absolute;">
+
+<textarea class="banners"><a href="/">link to the image</a></textarea>
+
+</span>
+
+</div>
+
+<div class="ban" style="position: relative;">
+
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="banners"><span style="position: absolute;">
+
+<textarea class="banners"><a href="/">link to the image</a></textarea>
+
+</span>
+
+</div>
+<div class="ban" style="position: relative;">
+
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="banners"><span style="position: absolute;">
+
+<textarea class="banners"><a href="/">link to the image</a></textarea>
+
+</span>
+
+</div>
+
+<div class="ban" style="position: relative;">
+
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="banners"><span style="position: absolute;">
+
+<textarea class="banners"><a href="/">link to the image</a></textarea>
+
+</span>
+
+</div>
+
+</div>
+
+<a name="#fonts" id="fonts"></a>
+<div id="content4" style="position:relative">
+	<div id="title2" style="position: relative;">
+<strong>►</strong> fonts.</div>
+
+<br> <br> <br> <br> <br> <br> <br>
+	<div style="width: 32%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+
+	<div style="width: 32%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+
+<div style="width: 33%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+
+
+<div style="width: 32%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+
+	<div style="width: 32%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+
+<div style="width: 33%; height: 230px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="http://www.syncron.com/wp-content/uploads/2017/03/img-placeholder.png" id="font" style="float: left; margin-right: 10px;">
+<textarea class="fonts">blah</textarea>
+<textarea class="fonts">blah</textarea>
+	</div>
+</center>
+
+</div>
+<a name="#layout" id="layout"></a>
+<div id="navbox3" style="position:absolute"></div>
+<center>
+
+	<div id="content5" style="position:relative">
+		<div id="layouts" style="position:relative"><b>l<br>a<br>y<br>o<br>u<br>t<br>s</b></div>
+
+	<div id="layoutcontent" style="position:relative">
+		
+
+<div style="width: 49%; height: 180px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" id="lay" style="float: left; margin-right: 10px;">
+<textarea class="layout">blah</textarea>
+
+	</div>
+
+
+
+<div style="width: 49%; height: 180px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" id="lay" style="float: left; margin-right: 10px;">
+<textarea class="layout">blah</textarea>
+	</div>
+
+
+<div style="width: 49%; height: 180px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" id="lay" style="float: left; margin-right: 10px;">
+<textarea class="layout">blah</textarea>
+
+	</div>
+
+
+
+<div style="width: 49%; height: 180px; float: left; margin-left: 5px; margin-right: 0; margin-bottom: 15px; overflow: hidden;"> 
+<img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" id="lay" style="float: left; margin-right: 10px;">
+<textarea class="layout">blah</textarea>
+	</div>
+
+<h3>past layouts</h3><br>
+Gummi bears cake jelly beans. Liquorice jelly-o toffee jelly-o. Sweet roll marshmallow powder lemon drops. Croissant candy sugar plum donut sugar plum cake. Cotton candy bear claw sweet. Cotton candy croissant donut candy canes cupcake bonbon halvah icing pudding. Sesame snaps ice cream chupa chups liquorice bear claw tiramisu liquorice. 
+</a>
+
+	</div>
+
+
+	</div>
+<div id="content6" style="position:relative">
+	css by elena 
+	</div>
+
+<a href="#home"><div id="arrow" style="position:fixed">↑</div></a>

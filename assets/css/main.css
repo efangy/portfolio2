@@ -1576,7 +1576,7 @@ input, select, textarea {
             height: 100%;
             opacity: 1;
             transition: opacity 0.5s ease-in-out;
-            transition: height 0.2s ease-in-out;
+            transition: height 0.5s ease-in-out;
     
         }
 
@@ -1877,6 +1877,36 @@ input, select, textarea {
 			}
 
 		}
+
+a.nave:link, a.nave:active, a.nave:visited {
+	display: block;
+	font-size: 11pt;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 40px;
+	width: 18%;
+	float: left;
+	text-align: center;
+	color: #000000;
+	font-weight: 10;
+	background-color: #F3F315;
+	text-decoration: none;
+	margin-bottom: 2px;
+	margin-right: 3px;
+	border: 2px white solid;
+	font-style: italic;
+	
+}
+a.nave:hover {
+	background-color: #FFFC7F;
+    transition: background-color 0.4s ease-in-out;
+	
+}
+
 
 /* Wrapper */
 
